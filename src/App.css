@@ -1,0 +1,140 @@
+.todo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin: 5rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.todo h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.todo-input {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: left;
+    width: 100%;
+}
+
+.tabs-todo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.todo-list h5,
+.todo-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-list ul {
+    list-style: none;
+}
+
+.todo-list li {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 14px;
+    background: #fff;
+    border: 0.5px solid #e0ddd8;
+    border-radius: 8px;
+    transition: border-color 0.15s;
+    margin-bottom: .8rem;
+}
+
+.todo-list li .item-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.todo-list li .item-list input {
+    padding: 0;
+    margin: 0;
+}
+
+.input-item {
+    flex: 1;
+    height: 38px;
+    padding: 0 12px;
+    border: 0.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #fff;
+    color: #1a1a1a;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.btn-add {
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #534AB7;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+.btn-quantity {
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+}
+
+.filter-btn {
+    padding: 5px 14px;
+    border-radius: 999px;
+    border: 0.5px solid #ccc;
+    font-size: 13px;
+    cursor: pointer;
+    background: #ebebeb;
+    color: #555;
+    transition: background 0.15s, color 0.15s;
+}
+
+.filter-btn.active {
+    background: #534AB7;
+    color: #fff;
+    border-color: #534AB7;
+}
+
+.btn-remove {
+    cursor: pointer;
+}
+
+.btn-remove img {
+    width: 16px;
+    height: 16px;
+}
